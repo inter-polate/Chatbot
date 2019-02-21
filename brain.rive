@@ -1,4 +1,7 @@
 ! version = 2.0
+
+! sub who's = who is
+! sub that's = that is
 // at the +, no punctuation or caps
 // at the -, yes punctation and caps
 
@@ -17,6 +20,21 @@
 
 + [*] typography [*]
 - Ok, so we're getting into that can of worms... {topic=typography}
+
++ knock knock
+- Who's there?
+
++ *
+% who is there // Previous
+- <star> who?
+
++ *
+% * who
+- LOL! <star>! That's funny!
+
++ *
+% lol * that is funny
+- i'm still lauhging at that...
 
 + how old are you
 - 10 minutes old
