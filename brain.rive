@@ -1,7 +1,12 @@
 ! version = 2.0
+// at the +, no punctuation or caps
+// at the -, yes punctation and caps
 
 + hello
 - hello, what is your name?
+
++ boo
+- Ahh!
 
 + hi
 - hi, what is your name?
@@ -27,6 +32,9 @@
 
 + interpolate sucks
 - no it doesn't!
+
++ what is your favorite kind of cake
+- it is carrot cake of course?!?!?!?!
 
 + *
 - Sorry did not get what you said
