@@ -16,6 +16,7 @@ form.addEventListener('submit', (e) => {
 function botReply(message){
  message_container.innerHTML += `<div class="bot">${message}</div>`;
  location.href = '#edge';
+ input_box.focus();
 }
 function selfReply(message){
  message_container.innerHTML += `<div class="self">${message}</div>`;
