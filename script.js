@@ -1,7 +1,9 @@
 let bot = new RiveScript();
 
 const brains = [
-   './brain.rive'
+   './brain.rive',
+   './sorry.rive',
+   './typography.rive'
 ];
 bot.loadFile(brains).then(botReady).catch(botNotReady);
 

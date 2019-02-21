@@ -15,10 +15,13 @@
 - nice to meet you <star>
 - nice meeting you <star>
 
++ [*] typography [*]
+- Ok, so we're getting into that can of worms... {topic=typography}
+
 + how old are you
 - 10 minutes old
 
-+ i am * old 
++ i am * old
 - do you feel old ?
 - that is super old
 
@@ -48,3 +51,6 @@
 
 + what is the weather like today
 - it is currently sunny but will start raining in 5 minutes and snowing in 15
+
++ i hate you
+- You're really mean! I'm not talking again until you apologize.{topic=sorry}
