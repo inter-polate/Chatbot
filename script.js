@@ -1,7 +1,7 @@
 let bot = new RiveScript();
 
 const brains = [
-   './brain.rive',
+   './brain.rive', // make sure there is the extension
    './sorry.rive',
    './typography.rive'
 ];
