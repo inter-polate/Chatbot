@@ -18,7 +18,7 @@
 - nice to meet you <star>
 - nice meeting you <star>
 
-+ [*] typography [*]
++ [*] typography [*] // the word inside the two [*] = trigger word for the response below
 - Ok, so we're getting into that can of worms... {topic=typography}
 
 + knock knock // no punctuation or caps
