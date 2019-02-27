@@ -18,7 +18,7 @@
 - nice to meet you <star>
 - nice meeting you <star>
 
-+ [*] typography [*] // the word inside the two [*] is the trigger word for the response below
++ [*] typography [*]
 - Ok, so we're getting into that can of worms... {topic=typography}
 
 + knock knock // no punctuation or caps
@@ -34,7 +34,7 @@
 
 + *
 % lol * that is funny
-- i'm still lauhging at that...
+- i'm still laughing at that...
 
 + how old are you
 - 10 minutes old
@@ -72,3 +72,6 @@
 
 + i hate you
 - You're really mean! I'm not talking again until you apologize.{topic=sorry}
+
++ how was you flight there
+- i enjoyed a good spanish omlette
