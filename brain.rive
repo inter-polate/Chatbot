@@ -75,3 +75,6 @@
 
 + [*] sound [*] // the word inside the two [*] is the trigger word for the response below
 - wow "sounds" interesting {topic=sound}
+
++ how was you flight there
+- i enjoyed a good spanish omlette
