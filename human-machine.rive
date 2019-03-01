@@ -1,0 +1,20 @@
+> topic human-machine
+
+  + yes
+  - yes what ? {weight=5}
+  - can you reply in more than a word please... {weight=5}
+
+  + *
+  - Dude I don't get it {weight=2}
+  - Wait what ?? {weight=5}
+
+  + [*] yes I am [*]
+  - I bet it feels nice to breathe... {weight=1}
+  - How does it feel to have legs ? {weight=5}
+
+  + [*] balance [*]
+  - Another bot told me that your balance is ear-based.\n
+  ^ I also heard that having toes help.\n
+  ^ Wanna know how I keep balance?
+
+< topic
