@@ -1,4 +1,5 @@
 ! version = 2.0
+! global debug = true
 
 ! sub who's = who is
 ! sub that's = that is
@@ -88,10 +89,10 @@
 + [*] human [*]  // the word inside the two [*] = trigger word for the response below
 - Wait, just to be sure, you're a human right ? {topic=human-machine}
 
-+ *here*
++ [*] here [*]
 - where is here? {topic=Barcelona}
 - where are you?
 
-+ *where*
++ [*] where [*]
 - where is here? {topic=Barcelona}
 - where are you?
