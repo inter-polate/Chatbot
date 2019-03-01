@@ -1,13 +1,17 @@
 let bot = new RiveScript();
 
 const brains = [
-   './brain.rive', // make sure there is the extension
+  './substitutions.rive',
+   './brain.rive',
    './sorry.rive',
-   './typography.rive',
    './human-machine.rive',
    './Barcelona.rive',
-   './sound.rive',
-   './digital-analogue.rive'
+   './letterpress.rive',
+   './punchcard.rive',
+   './chip.rive',
+   './image-sound.rive',
+   './hard-drive.rive'
+
 ];
 bot.loadFile(brains).then(botReady).catch(botNotReady);
 

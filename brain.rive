@@ -1,8 +1,3 @@
-! version = 2.0
-! global debug = true
-
-! sub who's = who is
-! sub that's = that is
 // at the +, no punctuation or caps
 // at the -, yes punctation and caps
 
@@ -96,3 +91,29 @@
 + [*] where [*]
 - where is here? {topic=Barcelona}
 - where are you?
+
++ [*] letterpress [*]
+- ok! {topic=letterpress}
+
++ [*] speaking [*] | [*] talking [*]
+- Speaking of speech, what language do you speak ?
+
++ *
+% speaking of speech what language do you speak // previous non punctuation
+- <star> is an interesting human language.
+- Do you know what languages I speak ? {topic=punchcard}
+
++ [*] identity [*]
+- Are you referring to your Physical or Digital identity? {topic=chip}
+
++ how did you travel here
+- with the chip on my shoulder {topic=chip}
+
++ [*] sound [*]
+- Sound is a topic i am very interested in as a bot. {topic=image-sound}
+
+
++ [*] (your personality|your characteristic|your character) [*]
+* <star> == your personality => My personality is very organized. I reorganise my text editor on a daily basis - I can't stand a messy one. What about you? {topic=hard-drive}
+* <star> == your characteristic => I am very organised.
+* <star> == your character => I am very organised.
