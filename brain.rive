@@ -86,7 +86,7 @@
 - I climbed the highest peaks of Montserrat and swam the depths of the Mediterranean Sea to reach the sunny city of Barcelona {topic=Barcelona}
 
 + [*] human [*]  // the word inside the two [*] = trigger word for the response below
-- Wait, just to be sure, you're a human right ? {topic=humanmachine}
+- Wait, just to be sure, you're a human right ? {topic=human-machine}
 
 + *here*
 - where is here? {topic=Barcelona}

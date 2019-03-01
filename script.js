@@ -3,7 +3,11 @@ let bot = new RiveScript();
 const brains = [
    './brain.rive', // make sure there is the extension
    './sorry.rive',
-   './typography.rive'
+   './typography.rive',
+   './human-machine.rive',
+   './Barcelona.rive',
+   './sound.rive',
+   './digital-analogue.rive'
 ];
 bot.loadFile(brains).then(botReady).catch(botNotReady);
 
