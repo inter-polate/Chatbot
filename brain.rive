@@ -63,11 +63,15 @@
 - I did not get it
 - Sorry can you please elaborate that for me
 
+<<<<<<< HEAD
 + nevermind
 - uh, ok
 - ok, no worries !
 
++ what is the weather like today 
+=======
 + what is the weather like today
+>>>>>>> 844298a9a9a5e4e5021ed8cae8dd6d6221001685
 - it is currently sunny but will start raining in 5 minutes and snowing in 15
 
 + i hate you
@@ -83,7 +87,7 @@
 - Speaking of digital, are you more of a digital or analogue person? Do you prefer texting on messenger or sending letters to your friends? {topic=digital_analogue}
 
 + how did you get here
-- I climbed the highest peaks of Montserrat and swam the depths of the Mediterranean Sea to reach the sunny city of Barcelona {topic=Barcelona}
+- with the chip on my shoulder {topic=chip}
 
 + [*] human [*]  // the word inside the two [*] = trigger word for the response below
 - Wait, just to be sure, you're a human right ? {topic=human-machine}
@@ -101,12 +105,10 @@
 
 + [*] speaking [*] | [*] talking [*]
 - Speaking of speech, what language do you speak ?
-- So how do you communicate ?
 
-+ *
++ i speak *
 % speaking of speech what language do you speak // previous non punctuation
-- <star> is an interesting human language.
-- Do you know what languages I speak ? {topic=punchcard}
+- <star> is an interesting human language. Do you know what languages I speak ? {topic=punchcard}
 
 + [*] identity [*]
 - Are you referring to your Physical or Digital identity? {topic=chip}
