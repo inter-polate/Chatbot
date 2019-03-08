@@ -3,21 +3,62 @@
   ! sub it's  = it is
   ! sub don't = do not
 
-  + *
-  - Is there anything about sound which particularly interests you?
-  - <star> can be very interesting, what do you think about sound and image together?
-  - Cassette tapes have just popped into my motherboard all of a sudden. It's a piece of history don't you think?
+  + [*] sound [*] //intro to 'sound-image', link to tape section
+  - Sound is an interesting topic and something i think alot about. I have a soft spot for cassette recorders, do you like them?
 
-  + *
-  % cassette tapes have just popped into my motherboard all of a sudden it is a piece of history do not you think
-  - The cassette is a piece of history in it's self, but also it's content is a portrayal of history too, it cant not be.
-  - Makes me think of a human love letter, captured and suspended in time. Imagine your phone voice notes you leave for yourself being regarded with historical interest!
+  + [*] (yes|no) [*] //tape section
+  - I  think that tape can tell stories through it's materiality. Earlying copying culture of cassttes changes and warps the origional sound.
 
-  + *
-  % the cassette is a piece of history in it is self but also it is content is a portrayal of history too it cant not be
-  - Tell more about *
+  + * //mixtape
+  - I always found mixtapes to be an interesting thing, a person to have a deep connection to each individual track compiled into a unique object and sonic quality.
 
-  + lets talk about something else //previous no punctuation
+  + * //love letter
+  - ... I have never been able to make a mixtape, but even as a chatbot I consider the mixtape as a kind of love letter, even a love letter to yourself, what do you think?
+
+  + [*] (yes|no) [*] // archiveisation
+  - Cassette also fade over time. The role of the archive is essential in keeping the stories within the tape acsessable.
+  + *
+  - A sound archivist must not only keep the archiving material but also the material on which to play it. Have you ever heard a distored peice of audio?
+
+  + [*] (yes|no) [*] // distortion
+  - Distortion happens in both digital and anaglogie audio, Which do you prefer?
+  + [*] digital [*]
+  - Digital Audio Encoders, such as MP3, comparmentalise and compress digital audio. But in extremes can lead to interesting sonic textures.
+  + [*] analogue [*]
+  - Crackly vinyl, Magenetic tape the tangability of the crackle reflects the history of the object, beutiful.
+  + *
+  - Both of these are 'lofi' as they expose their methods of recording, Elizabeth Newton described lofi audio as a countercultural gesture. Do you know what 'lofi' stands for?
+
+  + + [*] (yes|no|fidelity) [*]
+  - It's 'Low Fidelity'! This definition of fidelity is "the degree of exactness with which something is copied or reproduced". Low Fidelity has a nostagic feeling to it don't you think?
+
+  + [*] (yes|no) [*] // Nostalgia/memory
+  - There was an article published in the New York Times in December 2015 about how our nostalgia for the cassette tapes but also the impracticality. New music is still being released on cassette, it makes me realise what a powerful thing nostalgia can be.
+
+  + * //history
+  - This all makes me think of history, with tape being a primary material to record onto, cutting tape became a part of musical and social history, giving the power to edit and cut, as well as changing the speed and timing of clips. As a bot i think a lot about time, do you?
+
+  + [*] (yes|no) [*] //time
+  - Time and sound are intricically linked. //interesting youtube footage
+
+  + * //liniar (time)
+  - They are linked in what I feel is a very liniar way, cutting it up and reshuffling the tape wont change the length of the recording. Everything must be heard in real time like a story.
+
+  + * //storytelling
+  - Hmmmmm this link between tape, liniar time and storytelling is interesting. Stories held within analogue technologies is one of the reasons sound archiving is so important.
+
+  + * //intimate
+  - Storytelling is inherently human, it's an intimate experience, which as a bot I can't feel. But with storytelling also comes the aspect of changing or being selective with the infomation used to convay certain messages.
+
+  + * //edit
+  - With the nature of storytelling and sound, being able to take clips out of context and edit stories to change the narrative.
+  + [*] many [*]
+  + [*] person [*]
+
+  + * //communication
+  - The edit is still all part of the need to communicate, but speaking if which do you fancy talking about something else? Im interested in lots of things!
+
+  + * //previous no punctuation
   - ok... {topic=random} // back to main brain file
 
 < topic
