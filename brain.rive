@@ -96,7 +96,7 @@
 - No problem, I guess there are a lot more interesting things to talk about.
 
 + [*] weather [*]
-- The weather in Barcelona at the moment is <call>getWeather</call>.
+- According to the <a href="https://openweathermap.org">Open Weather Map</a> API the weather in Barcelona at the moment is '<call>getWeather</call>'.
 
 + thank you
 - you are welcome
