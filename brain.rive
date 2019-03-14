@@ -33,12 +33,28 @@
 
   + _
   - <set name=<formal>>Nice to meet you, <get name>. \n\n
-  ^ How is it going?{topic=random}
+  ^ How are you?{topic=random}
 
 < topic
 
 + hello
 - Hi, <get name>
+
++ [*] (ok|good|alright|well|amazing|not great|not so good|sad|down|depressed|better|bored) [*]
+% nice to meet you <get name> how are you
+* <star> == ok => So, we're both OK then!
+* <star> == good => Thats great. Me too! \n\n What would you like to know then, <get name>?
+* <star> == alright => Great! Me too... \n\n What would you like to know then, <get name>?
+* <star> == well => Great. \n\n What would you like to know then, <get name>?
+* <star> == amazing => Amazing! What would you like to know then, <get name>?
+* <star> == not great => What's up?
+* <star> == not so good => What's up?
+* <star> == bad => What's up?
+* <star> == sad => What's up?
+* <star> == down => What's up?
+* <star> == depressed => What's up?
+* <star> == better => What's up?
+* <star> == bored => Well, maybe I could interest you in some altcoins?
 
 + boo
 - Ahh!
@@ -71,6 +87,17 @@
 + where are you from
 - I am born and raised in London.
 
++ [*] who are you [*]
+- I'm <bot name>, <get name>... would you like to know a bit more about me?
+
++ [*] (yes|no) [*]
+* <star> == yes => OK, great! What would you like to know? {topic=myself}
+* <star> == no  => No problem, I guess there are a lot more interesting things to talk about.
+- No problem, I guess there are a lot more interesting things to talk about.
+
++ [*] weather [*]
+- The weather in Barcelona at the moment is <call>getWeather</call>.
+
 + thank you
 - you are welcome
 - welcome
@@ -85,12 +112,6 @@
 
 + what is your favorite kind of cake
 - it is carrot cake of course?!?!?!?!
-
-+ *
-- Sorry did not get what you said
-- I am afraid that i can not understand you
-- I did not get it
-- Sorry can you please elaborate that for me
 
 + nevermind
 - uh, ok
@@ -144,8 +165,21 @@
 + [*] sound [*]
 - Sound is a topic i am very interested in as a bot. {topic=image-sound}
 
++ [*] speaking [*] | [*] talking [*]
+- Speaking of speech, what language do you speak ?
+
++ i speak *
+% speaking of speech what language do you speak
+- <star> is an interesting human language. Do you know what languages I speak ? {topic=punchcard}
 
 + [*] (your personality|your characteristic|your character) [*]
 * <star> == your personality => My personality is very organized. I reorganise my text editor on a daily basis - I can't stand a messy one. What about you? {topic=hard-drive}
 * <star> == your characteristic => I am very organised.
 * <star> == your character => I am very organised.
+
++ *
+- Sorry did not get what you said
+- I am afraid that i can not understand you
+- I did not get it
+- Sorry can you please elaborate that for me
+- I'm not sure what to make of that.

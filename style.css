@@ -16,6 +16,9 @@ body {
  margin: 5vh auto 0px auto;
  border-radius: 20px;
 }
+.chat::-webkit-scrollbar {
+  width: 0px;
+}
 .actions {
  display: block;
  width: 400px;
@@ -55,4 +58,24 @@ body {
  text-align: right;
  margin-left: auto;
  border: 1px darkgrey solid;
+}
+
+@media all and (max-width: 600px) {
+  .chat {
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: none;
+    height: 100%;
+    margin: 0;
+  }
+  .actions {
+    width: 100%;
+    background: #000;
+    border-radius: 0px;
+  }
+  .actions input {
+    width: 100%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
 }

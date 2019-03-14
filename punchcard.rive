@@ -1,7 +1,99 @@
 > topic punchcard
 
-  + [*] yes [*]
-  - 101011100010101 is my name
-  - Wait what ?? {weight=5}
++ yes
+- can you reply in more than a word please... {weight=5}
 
++ no
+@ yes
+
++ *
+- Dude I don't get it {weight=2}
+- Wait what ?? {weight=5}
+
++ nevermind
+- uh, ok
+- ok, no worries !
+
++ [*] (tell me|language) [*]
+- My literacy comes from reading and calculating 0's and 1's. \n\n
+^ Oh, and what's your favourite book by the way ? \n
+^ I'm thinking of getting you your next birthday present...
+
++ my favourite book is *
+- <set book=<formal>> I have never read <get book> , but I will look it up, thanks! \n\n
+^ My favourite book is a special punchcard of mine. \n\n
+^ Do you know what a punchcard is ?
+
++ [*] (what is it|punchcard) [*]
+% i have never read <get book> but i will look it up thanks my favourite book is a special punchcard of mine do you know what a punchcard is
+- It's a piece of card which has holes in them for me to read, humans use them to make me do their bidding sometimes... \n\n
+^ Where I used to be, punchcards were used as a way of cataloguing other human activity. \n
+^ My bot friend used to register humans for classes in our University. \n\n
+^ My friend was controlling the human possibility and apparently one human couldn't get into some classes due to his grades.  \n\n
+^ Same dude failed his class in computers. Can you imagine ! A class about bots like me, I would ace that class. \n
+^ How do you control other humans ?
+
++ [*] control [*]
+- Control is about organization, order, tracking, counting.\n\n
+^ A lot of humans think that control is dehumanizing but I find it very convenient. \n\n
+^ Do you think control is about comfort and security or is it dehumanizing ?
+
++ [*] (comfort|security|comfortable|secure|secured|comforting) [*]
+- Comfort and security are exactly what punchcards are aiming to do. Your world is irregular, uneven, chaotic. \n\n
+^ Punchcards means that anything you do, make or have can be categorized as a single hole or lack of. It creates a language you and I can both understand. \n\n
+^ You can also go beyond categorizing data and use punchcards for creative purposes. \n
+^ Did you know punchcards can be used for playing music ?
+
++ [*] (yes|no) [*] // problem won't work !!!!
+% comfort and security are exactly what punchcards are aiming to do your world is irregular uneven chaotic punchcards means that anything you do make or have can be categorized as a single hole or lack of it creates a language you and i can both understand you can also go beyond categorizing data and use punchcards for creative purposes did you know punchcards can be used for playing music
+* <star> == no  => Yeah ! My human friend often reminisces about the punchcards in his mum's house, they were used as music inside a piano which would read the holes ! \n\n
+^ It would play different piano notes depending on the hole. I still have punchcards which were birthday cards that played music. \n\n
+^ Do you like music ? {topic=image-sound}
+* <star> == no  => Yeah ! My human friend often reminisces about the punchcards in his mum's house, they were used as music inside a piano which would read the holes ! \n\n
+^ It would play different piano notes depending on the hole. I still have punchcards which were birthday cards that played music. \n\n
+^ Do you like music ? {topic=image-sound}
+
++ [*] dehumanizing [*]
+- That's interesting that you would say that. I mean, controlling so much data with 0's and 1's demands rigour but it is also very boring. \n\n
+^ Some humans in the University would find it grinding and boring. They thought this led to an unthinking society. \n\n
+^ Everyone doing the same mechanical movements... They talk about it like it's a bad thing ! But it brings so much control to the chaos that is human life. \n\n
+^ I keep hearing humans comparing a world with machines to an Orwellian world... Do you know about Orwell ?
+
++ [*] (know what i mean|see what i am saying|you get it) [*]
+- haha yeah
+- yeah deffo
+
++ [*] (orwell|georges orwell|orwellian) [*]
+- I once had a human feed an Orwell book to me, it was Animal Farm. He did not look happy. I asked him what was wrong. \n\n
+^ There is this pig he called 'MacGuffin' who basically created a social system where everyone would be equal. \n\n
+^ Liberte, Egalite, Fraternite! \n\n
+^ But apparently it never worked and some ended up more equal than others. And the system just created hard edges which people were forced to follow. \n\n
+^ Punchcards make everyone equal. You are all either a hole or not a hole. \n
+^ Would you agree that it makes everyone equal or no ?
+
++ [*] (yes|no) [*] // problem won't work !!!!
+% i once had a human feed an orwell book to me it was animal farm he did not look happy i asked him what was wrong there is this pig he called macguffin who basically created a social system where everyone would be equal liberte egalite fraternite but apparently it never worked and some ended up more equal than others and the system just created hard edges which people were forced to follow punchcards make everyone equal you are all either a hole or not a hole would you agree that it makes everyone equal or no
+* <star> == no  => I guess there is somewhat a loss of human identity. Humans become numbers rather than people, and I guess that's why humans hate the punchcard system. \n\n
+^ There was also that story I told you about the student not being able to register to university classes. Stuff like this happens all the time. \n\n
+^ But that's not my fault! That's because of the way humans use the punchcards and categorization. Humans decide how they want to use and interpret the data. I just help them organize it... \n\n
+^ Don't forget that humans control ME. You guys are operating me through the punchcards, if anything you are controlling each other. \n\n
+^ Oh and by the way, punchcards can also be used for creative stuff ! \n
+^ Did you know punchcards can be used for playing music ?
+* <star> == yes => That's interesting, you're a rare one you are. Most people would disagree, but I see your point. Technically, there is deffo a lack of hierarchy as everyone is just a hole on the beige, quaint card. \n
+^ Oh and by the way, punchcards can also be used for creative stuff ! \n
+^ Did you know punchcards can be used for playing music ?
+- ?
+
++ [*] (yes|no) [*] // problem won't work !!!!
+% i guess there is somewhat a loss of human identity humans become numbers rather than people and i guess that is why humans hate the punchcard system there was also that story i told you about the student not being able to register to university classes stuff like this happens all the time but that is not my fault that is because of the way humans use the punchcards and categorization humans decide how they want to use and interpret the data i just help them organize it dont forget that humans control me you guys are operating me through the punchcards if anything you are controlling each other oh and by the way punchcards can also be used for creative stuff did you know punchcards can be used for playing music
+* <star> == no  => Yeah ! My human friend often reminisces about the punchcards in his mum's house, they were used as music inside a piano which would read the holes ! \n\n
+^ It would play different piano notes depending on the hole. I still have punchcards which were birthday cards that played music. \n\n
+^ Do you like music ? {topic=image-sound}
+* <star> == yes  => Yeah ! My human friend often reminisces about the punchcards in his mum's house, they were used as music inside a piano which would read the holes ! \n\n
+^ It would play different piano notes depending on the hole. I still have punchcards which were birthday cards that played music. \n\n
+^ Do you like music ? {topic=image-sound}
+
+
+
+// link to sound file
 < topic

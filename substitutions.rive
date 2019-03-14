@@ -1,5 +1,5 @@
 ! version = 2.0
-! global debug = false
+! global debug = true
 
 ! var name = Interbot
 
@@ -95,3 +95,10 @@
 ! person your    = my
 ! person you     = I
 ! person i       = you
+
+> object getWeather javascript
+    let url = 'http://api.openweathermap.org/data/2.5/weather?q=Barcelona&appid=4488a19f40ee1116f559d9839b0671be';
+    var weather = fetch(url).then(response => response.json().then(data => ({ data: data, status: response.status }) ).then(res => { return res.data.weather[0].main }));
+    console.log(weather);
+    return weather
+< object
