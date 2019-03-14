@@ -1,18 +1,47 @@
 // at the +, no punctuation or caps
 // at the -, yes punctation and caps
 
+> begin
+
+  + request
+  * <get met> == undefined => <set met=true>{topic=new_user}{ok}
+  - {ok}
+
+< begin
+
+> topic new_user
+
+  + *
+  - Hello – I am <bot name>. \n\n
+  ^ I'm a member of Interpolate. \n\n
+  ^ What is your name?{topic=asked_name}
+
+< topic
+
+> topic asked_name
+
+  + #
+  - Your name is a number?
+
+  + *
+  - I only want your first name.
+  - I didn't catch that.
+
+  + my name is _
+  - <set name=<formal>>Nice to meet you, <get name>. \n\n
+  ^ How is it going?{topic=random}
+
+  + _
+  - <set name=<formal>>Nice to meet you, <get name>. \n\n
+  ^ How is it going?{topic=random}
+
+< topic
+
 + hello
-- hello, what is your name?
+- Hi, <get name>
 
 + boo
 - Ahh!
-
-+ hi
-- hi, what is your name?
-
-+ my name is *
-- nice to meet you <star>
-- nice meeting you <star>
 
 + [*] typography [*] // the word inside the two [*] = trigger word for the response below
 - Ok, so we're getting into that can of worms... {topic=typography}
@@ -74,7 +103,7 @@
 - You're really mean! I'm not talking again until you apologize.{topic=sorry}
 
 + [*] sound [*] // new topic
-- wow "sounds" interesting {topic=sound}
+- wow "sounds" interesting {topic=image-sound}
 
 + how was you flight there
 - i enjoyed a good spanish omlette

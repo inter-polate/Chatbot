@@ -1,6 +1,8 @@
 ! version = 2.0
 ! global debug = false
 
+! var name = Interbot
+
 ! sub &quote;   = quot
 ! sub &apos;    = apos
 ! sub &amp;     = amp

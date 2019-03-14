@@ -30,7 +30,8 @@ function selfReply(message){
  location.href = '#edge';
 
  bot.reply("local-user", message).then(function(reply) {
- botReply(reply);
+   timeoutAmt = reply.length * 10;
+   setTimeout(() => botReply(reply), timeoutAmt);
  });
 }
 function botReady(){
