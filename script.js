@@ -7,7 +7,8 @@ const brains = [
   './letterpress.rive',
   './punchcard.rive',
   './chip.rive',
-  './image-sound.rive'
+  './image-sound.rive',
+  './hard-drive.rive'
 
 ];
 bot.loadFile(brains).then(botReady).catch(botNotReady);
