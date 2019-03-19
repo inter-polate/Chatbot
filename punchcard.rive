@@ -1,10 +1,16 @@
 > topic punchcard
 
 + yes
-- can you reply in more than a word please... {weight=5}
+- can you reply in more than a word please...
 
 + no
 @ yes
+
++ yes i do
+- yes you do what ?
+
++ no i do not
+- no you don't what ?
 
 + *
 - Dude I don't get it {weight=2}
@@ -78,19 +84,20 @@
 ^ But that's not my fault! That's because of the way humans use the punchcards and categorization. Humans decide how they want to use and interpret the data. I just help them organize it... \n\n
 ^ Don't forget that humans control ME. You guys are operating me through the punchcards, if anything you are controlling each other. \n\n
 ^ Oh and by the way, punchcards can also be used for creative stuff ! \n
-^ Did you know punchcards can be used for playing music ?
+//^ Did you know punchcards can be used for playing music ?
+^ Did you know that punchcard
 * <star> == yes => That's interesting, you're a rare one you are. Most people would disagree, but I see your point. Technically, there is deffo a lack of hierarchy as everyone is just a hole on the beige, quaint card. \n
 ^ Oh and by the way, punchcards can also be used for creative stuff ! \n
-^ Did you know punchcards can be used for playing music ?
+^ Did you know punchcards can be used for playing music ? Do you like music ?
 - ?
 
-+ [*] (yes|no) [*] // problem won't work !!!!
++ [*] music [*] | [*] sound [*] // problem won't work !!!!
 //% i guess there is somewhat a loss of human identity humans become numbers rather than people and i guess that is why humans hate the punchcard system there was also that story i told you about the student not being able to register to university classes stuff like this happens all the time but that is not my fault that is because of the way humans use the punchcards and categorization humans decide how they want to use and interpret the data i just help them organize it dont forget that humans control me you guys are operating me through the punchcards if anything you are controlling each other oh and by the way punchcards can also be used for creative stuff did you know punchcards can be used for playing music
-% did you know punchcards can be used for playing music 
+% did you know punchcards can be used for playing music
 * <star> == no  => Yeah ! My human friend often reminisces about the punchcards in his mum's house, they were used as music inside a piano which would read the holes ! \n\n
 ^ It would play different piano notes depending on the hole. I still have punchcards which were birthday cards that played music. \n\n
 ^ Do you like music ? {topic=image-sound}
-* <star> == yes  => Yeah ! My human friend often reminisces about the punchcards in his mum's house, they were used as music inside a piano which would read the holes ! \n\n
+* <star> == yes => Yeah ! My human friend often reminisces about the punchcards in his mum's house, they were used as music inside a piano which would read the holes ! \n\n
 ^ It would play different piano notes depending on the hole. I still have punchcards which were birthday cards that played music. \n\n
 ^ Do you like music ? {topic=image-sound}
 
