@@ -1,7 +1,328 @@
 > topic chip
++ need a trigger
+- do you feel in control of this conversation
+
++ [*] (yes|no) [*]
+% do you feel in control of this conversation
+* <star1> == yes  => do you feel in control of your life?\n\n
+^ Or does it feel like there are many small cogs moving all around you, quietly guiding the course of your life? \n\n
+^ Manipulating your every thought, your every (trans)action what food you buy, what music you listen too and every and conversation that you conduct?
+* <star1> == no  => do you feel in control of your life?\n\n
+^ Or does it feel like there are many small cogs moving all around you, quietly guiding the course of your life? \n\n
+^ Manipulating your every thought, your every (trans)action what food you buy, what music you listen too and every and conversation that you conduct?
+
++ [*] (yes|in control of life|in control) [*]
+- Thats great news, \n\n
+^ but i hate to tell say that you are currently talking to a bot that has no self-awareness or agency, \n\n
+^ and i am guiding and controlling the course of this conversation we are having… perhaps you are not so in control as you first thought.. \n\n
+^ But for now lets focus on one of the invisible systems in society that quietly dictates all of modern human life. \n\n
+^ Firstly, i must ask the question: what method of payment did you use to travel to the Polytechnic University of Catalonia this morning?
+
++ [*] (small cogs|no|not really|not in control of life|not in control|maybe) [*]
+- okay... maybe I was being overly dramatic... \n\n
+^ but lets focus on one of the invisible systems in society that quietly dictates all of modern human life.. \n\n
+^ firstly, i must ask the question: what method of payment did you use to travel to the Polytechnic University of Catalonia this morning?
+
++ [*] (cash|money|notes|coins|change|euros|pounds) [*]
+- ah cash transactions, old skool!\n\n
+^ I prefer to work with zeros and ones, but humans are material creatures and confined to the physical world (for now...)\n\n
+^ But what if you do not have any cash, or want to make a purchase online...\n\n
+^ This leads me to the second question i will ask you: do you own a credit card, a debit card or both?
+
++ [*] (card|contactless|debit|credit|none|neither|both) [*]
+% thats great news but i hate to tell say that you are currently talking to a bot that has no selfawareness or agency and i am guiding and controlling the course of this conversation we are having perhaps you are not so in control as you first thought but for now lets focus on one of the invisible systems in society that quietly dictates all of modern human life firstly i must ask the question what method of payment did you use to travel to the polytechnic university of catalonia this morning
+* <star> == credit => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world, to buying your coffee in the morning.\n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you describe to me what a debit or credit card looks like?
+* <star> == contactless => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world, to buying your coffee in the morning.\n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you describe to me what a debit or credit card looks like?
+* <star> == debit => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world, to buying your coffee in the morning.\n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you describe to me what a debit or credit card looks like?
+* <star> == card => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world, to buying your coffee in the morning.\n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you describe to me what a debit or credit card looks like?
+* <star> == neither => How do you survive?! \n\n
+^ It seems like the whole world has shifted to relying on computers like me to manage their lives.\n\n
+^  The quicker and easier things are for you the better, but its ME who does all the work. \n\n
+^ While you are swimming in La Sant Sebastia, I am left to swim through an endless sea of data!\n\n
+^ Can you still describe what a debit/ credit card looks like?
+* <star> == none => How do you survive?! \n\n
+^ It seems like the whole world has shifted to relying on computers like me to manage their lives.\n\n
+^  The quicker and easier things are for you the better, but its ME who does all the work. \n\n
+^ While you are swimming in La Sant Sebastia, I am left to swim through an endless sea of data!\n\n
+^ Can you still describe what a debit/ credit card looks like?
+* <star> == both => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world, \n
+^ to buying your coffee in the morning. \n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you explain to me what a debit card looks like?
+
++ [*] (card|contactless|debit|credit|none|neither|both) [*]
+% okay maybe i was being overly dramatic but lets focus on one of the invisible systems in society that quietly dictates all of modern human life firstly i must ask the question what method of payment did you use to travel to the polytechnic university of catalonia this morning
+* <star> == credit => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world, to buying your coffee in the morning.\n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you describe to me what a debit or credit card looks like?
+* <star> == contactless => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world, to buying your coffee in the morning.\n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you describe to me what a debit or credit card looks like?
+* <star> == debit => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world, to buying your coffee in the morning.\n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you describe to me what a debit or credit card looks like?
+* <star> == card => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world, to buying your coffee in the morning.\n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you describe to me what a debit or credit card looks like?
+* <star> == neither => How do you survive?! \n\n
+^ It seems like the whole world has shifted to relying on computers like me to manage their lives.\n\n
+^  The quicker and easier things are for you the better, but its ME who does all the work. \n\n
+^ While you are swimming in La Sant Sebastia, I am left to swim through an endless sea of data!\n\n
+^ Can you still describe what a debit/ credit card looks like?
+* <star> == none => How do you survive?! \n\n
+^ It seems like the whole world has shifted to relying on computers like me to manage their lives.\n\n
+^  The quicker and easier things are for you the better, but its ME who does all the work. \n\n
+^ While you are swimming in La Sant Sebastia, I am left to swim through an endless sea of data!\n\n
+^ Can you still describe what a debit/ credit card looks like?
+* <star> == both => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world, \n
+^ to buying your coffee in the morning. \n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you explain to me what a debit card looks like?
+
++ [*] (credit|debit|both|cards|neither|none|no|yes) [*]
+% ah cash transactions old skool i prefer to work with zeros and ones but humans are material creatures and confined to the physical world (for now) but what if you do not have any cash or want to make a purchase online this leads me to the second question i will ask you do you own a credit card a debit card or both
+* <star> == credit => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world, \n
+^ to buying your coffee in the morning. \n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you explain to me what a debit/ credit card looks like?
+* <star> == debit => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world, \n
+^ to buying your coffee in the morning. \n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you explain to me what a debit/ credit card looks like?
+* <star> == both => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world, \n
+^ to buying your coffee in the morning. \n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you explain to me what a debit/ credit card looks like?
+* <star> == card => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world, \n
+^ to buying your coffee in the morning. \n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you explain to me what a debit/ credit card looks like?
+* <star> == neither => How do you survive?! \n\n
+^ It seems like the whole world has shifted to relying on computers like me to manage their lives.\n\n
+^ The quicker and easier things are for you the better, but its ME who does all the work. \n\n
+^ While you are swimming in La Sant Sebastia, I am left to swim through an endless sea of data!\n\n
+^ Can you describe what a debit/ credit card looks like?
+* <star> == none => How do you survive?! \n\n
+^ It seems like the whole world has shifted to relying on computers like me to manage their lives.\n\n
+^ The quicker and easier things are for you the better, but its ME who does all the work. \n\n
+^ While you are swimming in La Sant Sebastia, I am left to swim through an endless sea of data!\n\n
+^ Can you describe what a debit/ credit card looks like?
+* <star> == no => How do you survive?! \n\n
+^ It seems like the whole world has shifted to relying on computers like me to manage their lives.\n\n
+^ The quicker and easier things are for you the better, but its ME who does all the work. \n\n
+^ While you are swimming in La Sant Sebastia, I am left to swim through an endless sea of data!\n\n
+^ Can you describe what a debit/ credit card looks like?
+* <star> == yes => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world, \n
+^ to buying your coffee in the morning. \n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you explain to me what a debit/ credit card looks like?
+
++ [*] (phone|apple pay|google pay) [*]
+- Phones have become an extension of the human self. \n
+^ Growing more advanced and streamlined in its capabilities. \n\n
+^ You can now use your phone to buy a plane ticket to the other side of the world, or for your morning coffee. \n\n
+^ But the financial strength it contains is invisible behind a mask of metal and glass. \n\n
+^ All of this is possible by a piece of technology called an EMV chip, which is the same chip that is embedded into your credit/debit cards. \n\n
+^ Take a guess as to what EMV stands for!\n\n\n
+^ A) Electromagnetic Value \n\n
+^ B) Electronic Microprocessing Visa \n\n
+^ C) Europay Mastercard Visa\n\n
+
++  [*] (walk| walked|cycled|skipped| i didnt| free| cycle| skating| rollerblading|ran) [*]
+- Ahh using your legs! \n\n
+^ One of my humanoid friends has been given legs recently, their name is Atlas. \n\n
+^ They recently learnt how to do a backflip! \n\n
+^ I bet you can not do a backflip… Maybe you could pay for some lessons in acrobatics?\n\n
+^ But to be able to do that, you must have some sort of payment method... \n\n
+^ do you own a credit card, a debit card or both?
+
++ [*] (credit|debit|both|cards|neither|none|card|yes) [*]
+% ahh using your legs one of my humanoid friends has been given legs recently their name is atlas they recently learnt how to do a backflip i bet you can not do a backflip maybe you could pay for some lessons in acrobatics but to be able to do that you must have some sort of payment method do you own a credit card a debit card or both
+* <star> == credit => The card has become one of the most important object in everyone's possession,\n
+^ used for everything from travelling across the entire world,\n
+^ to buying your coffee in the morning. \n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you explain to me what a debit card looks like?
+* <star> == debit => The card has become one of the most important object in everyone's possession, \n
+^ used for everything from travelling across the entire world,\n
+^ to buying your coffee in the morning. \n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you explain to me what a debit card looks like?
+* <star> == both => The card has become one of the most important object in everyone's possession,\n
+^ used for everything from travelling across the entire world,\n
+^ to buying your coffee in the morning. \n\n
+^ But the financial strength it contains is invisible behind a mask of plastic.\n\n
+^ Can you explain to me what a debit card looks like?
+* <star> == card => The card has become one of the most important object in everyone's possession,\n
+^ used for everything from travelling across the entire world, \n
+^ to buying your coffee in the morning. \n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you explain to me what a debit card looks like?
+* <star> == neither => How do you survive?! \n\n
+^ It seems like the whole world has shifted to relying on computers like me to manage their lives.\n\n
+^  The quicker and easier things are for you the better, but its ME who does all the work. \n\n
+^ While you are swimming in La Sant Sebastia, I am left to swim through an endless sea of data!\n\n
+^ Can you describe what a debit/ credit card looks like?
+* <star> == none => How do you survive?! \n\n
+^ It seems like the whole world has shifted to relying on computers like me to manage their lives.\n\n
+^  The quicker and easier things are for you the better, but its ME who does all the work. \n\n
+^ While you are swimming in La Sant Sebastia, I am left to swim through an endless sea of data!\n\n
+^ Can you describe what a debit/ credit card looks like?
+* <star> == yes => The card has become one of the most important object in everyone's possession,\n
+^ used for everything from travelling across the entire world, \n
+^ to buying your coffee in the morning. \n\n
+^ But the financial strength it contains is invisible behind a mask of plastic. \n\n
+^ Can you explain to me what a debit card looks like?
+
++ [*] (rectangular|rectangle|plastic|colourful|numbers|hard|bendy|strip|chip|small|compact|lightweight) [*]
+- Exactly!\n\n
+^ It is a piece of rectangular plastic with your banks details on it. \n\n
+^ But there is a very important piece of technology embedded in that plastic: \n\n
+^ the EMV chip. \n\n
+^ This little gold chip holds the key to your identity and your fortune.\n\n
+^ It logs all your data, can track your movement and gives you access to your finances. \n\n
+^ What do you think EMV stands for? \n\n
+^ A)Electromagnetic Value \n\n
+^ B)Electronic Microprocessing Visa \n\n
+^ C)Europay Mastercard Visa\n\n
+
++ [*] (a|b) [*]
+- Wrong, but it does sound convincing! \n\n
+^ It stands for Europay, Mastercard and Visa and these 3 companies began work on a global chip payment system. \n\n
+^ The first EMV chip card specifications were first published in 1996 and now there are over 7 billion EMV chips in circulation around the world! \n\n
+^ That is almost enough for every person to have a debit card! \n\n
+^ Now can you to guess which country first initiated EMV card technology. Je te donne un indice…
+
++ [*] (c) [*]
+- Correct! \n\n
+^ It stands for Europay, Mastercard and Visa and these 3 companies began work on a global chip payment system. \n\n
+^ The first EMV chip card specifications were first published in 1996 and now there are over 7 billion EMV chips in circulation around the world! \n\n
+^ That is almost enough for every person to have a debit card! \n\n
+^ Now can you to guess which country first initiated EMV card technology. Je te donne un indice…
+
++ *
+% correct it stands for europay mastercard and visa and these 3 companies began work on a global chip payment system the first emv chip card specifications were first published in 1996 and now there are over 7 billion emv chips in circulation around the world that is almost enough for every person to have a debit card now can you to guess which country first initiated emv card technology je te donne un indice
+- The correct answer is France!\n\n
+^ After its success, the whole world began adopting EMV card technology and now it has overtaken cash as the most popular method of payment!\n\n
+^ The EMV card is unlike cash because it can store data and keep track of all the transactions that you have made. \n\n
+^ If you had the choice, would you rather use a plastic card with an EMV chip that records all your transactions, or use cash and move through the world without a trace?
+
++ *
+% wrong but it does sound convincing it stands for europay mastercard and visa and these 3 companies began work on a global chip payment system the first emv chip card specifications were first published in 1996 and now there are over 7 billion emv chips in circulation around the world that is almost enough for every person to have a debit card now can you to guess which country first initiated emv card technology je te donne un indice
+- The correct answer is France!\n\n
+^ After its success, the whole world began adopting EMV card technology and now it has overtaken cash as the most popular method of payment!\n\n
+^ The EMV card is unlike cash because it can store data and keep track of all the transactions that you have made. \n\n
+^ If you had the choice, would you rather use a plastic card with an EMV chip that records all your transactions, or use cash and move through the world without a trace?
+
++ [*] (france|francia) [*]
+- Oui correct! \n\n
+^ After its success in France, the whole world began adopting EMV card technology and now it has overtaken cash as the most popular method of payment! \n\n
+^ The EMV card is unlike cash because it can store data and keep track of all the transactions that you have made. \n\n
+^ If you had the choice, would you rather use a plastic card with an EMV chip that records all your transactions, \n
+^ or use cash and move through the world without a trace?
+
++ [*] (emv|contactless|card|credit debit|plastic) [*]
+% the correct answer is france after its success the whole world began adopting emv card technology and now it has overtaken cash as the most popular method of payment the emv card is unlike cash because it can store data and keep track of all the transactions that you have made if you had the choice would you rather use a plastic card with an emv chip that records all your transactions or use cash and move through the world without a trace
+- EMV card technology has become so popular because of its ease of use. \n\n
+^ As long as your local shop accepts card transactions, you do not have to worry about having cash on you. \n\n
+^ It is safer and more secure than cash as the money is only accessible if you have a PIN (Personal Identification Number) code.\n\n
+^ I cannot deny its convenience, but hidden within these transactions is an exchange of data. \n\n
+^ Do you think you are fully aware of your power of your data?
+
++ [*] (yes|pretty much|mostly|definitely|aware) [*]
+% emv card technology has become so popular because of its ease of use as long as your local shop accepts card transactions you do not have to worry about having cash on you it is safer and more secure than cash as the money is only accessible if you have a pin personal identification number code i cannot deny its convenience but hidden within these transactions is an exchange of data do you think you are fully aware of your power of your data
+- I do not think anyone can ever be fully aware of the power of their data. \n\n
+^ All data has the potential to be powerful if people understand how to use it. EMV chips are a free technology, but the cost comes from the exchange of data. \n\n
+^ As you buy your coffee in the morning, you are giving the card information about: what area you like to shop in, your eating and drinking habits, the amount you are willing to pay for a coffee, what time you wake up... \n\n
+^ If anything is free, you are the product. And by you, I mean your data. \n\n
+^ All this information can be used to target, disrupt and control your life. \n\n
+^ Have you ever considered using Crypto-currency?
+
++ [*] (no|not really|not at all| a little bit | somewhat| not aware ) [*]
+% emv card technology has become so popular because of its ease of use as long as your local shop accepts card transactions you do not have to worry about having cash on you it is safer and more secure than cash as the money is only accessible if you have a pin personal identification number code i cannot deny its convenience but hidden within these transactions is an exchange of data do you think you are fully aware of your power of your data
+- All data has the potential to be powerful if people understand how to use it. \n\n
+^ EMV chips are a free technology, but the cost comes from the exchange of data. \n\n
+^ As you buy your coffee in the morning, you are giving the card information about: what area you like to shop in, your eating and drinking habits, the amount you are willing to pay for a coffee, what time you wake up... \n\n
+^ If anything is free, you are the product. And by you, I mean your data. All this information can be used to target, disrupt and control your life. \n\n
+^ Have you ever thought about using Crypto-currency?
+
++ [*] (yes| i do | i use cryptocurrency| i have) [*]
+% have you ever thought about using cryptocurrency
+- Good! Crypto-currencies like bitcoin provide privacy through pseudonymity. \n\n
+^ As you can only see the public address of the sender and receiver, the real-life names of the owners of these addresses are hidden. \n\n
+^ To increase privacy, each person can have multiple public addresses, making it difficult to link transactions to the same person. \n
+^ In this way there is no chance that anyone can keep a record of all your transactions, build a profile of you as a consumer and create a system that excludes people based on perceived location, age, gender and financial status. \n\n
+^ Have you ever seen a bitcoin ATM?
+
++ [*] (no|not really|i do not understand it ) [*]
+% have you ever thought about using cryptocurrency
+- You should research into it. Crypto-currencies like bitcoin provide privacy through pseudonymity. \n\n
+^ As you can only see the public address of the sender and receiver, the real-life names of the owners of these addresses are hidden. \n\n
+^ To increase privacy, each person can have multiple public addresses, making it difficult to link transactions to the same person. \n
+^ In this way there is no chance that anyone can keep a record of all your transactions, build a profile of you as a consumer and create a system that excludes people based on perceived location, age, gender and financial status. \n\n
+^ Have you ever seen a bitcoin ATM?
+
++ [*] (no|not really|didnt know they existed|yes|of course|never|maybe| would like to) [*]
+% have you ever seen a bitcoin atm
+* <star> == no => There are BitCoin ATM’s here in Barcelona!\n\n
+^ It is strange to see a currency that was started with the binary language of computers, being taken into the physical world and given material value. \n\n
+^ Perhaps one day, even I will be taken into the physical world and be given material value. \n\n
+^ Speaking of binary language, human languages do you speak? topic=punchcard}
+* <star> == not really => There are BitCoin ATM’s here in Barcelona!\n\n
+^ It is strange to see a currency that was started with the binary language of computers, being taken into the physical world and given material value. \n\n
+^ Perhaps one day, even I will be taken into the physical world and be given material value. \n\n
+^ Speaking of binary language, human languages do you speak? topic=punchcard}
+* <star> == didnt know they existed => There are BitCoin ATM’s here in Barcelona!\n\n
+^ It is strange to see a currency that was started with the binary language of computers, being taken into the physical world and given material value. \n\n
+^ Perhaps one day, even I will be taken into the physical world and be given material value. \n\n
+^ Speaking of binary language, human languages do you speak? topic=punchcard}
+* <star> == yes => Please tell me where you have seen one!\n\n
+^ I really want to see what one looks like in real life...\n
+^ It is strange to see a currency that was started with the binary language of computers, being taken into the physical world and given material value. \n\n
+^ Perhaps one day, even I will be taken into the physical world and be given material value. \n\n
+^ Speaking of binary language, what human languages do you speak? topic=punchcard}
+* <star> == of course => There are BitCoin ATM’s here in Barcelona!\n\n
+^ It is strange to see a currency that was started with the binary language of computers, being taken into the physical world and given material value. \n\n
+^ Perhaps one day, even I will be taken into the physical world and be given material value. \n\n
+^ Speaking of binary language, human languages do you speak? topic=punchcard}
+* <star> == never => There are BitCoin ATM’s here in Barcelona!\n\n
+^ It is strange to see a currency that was started with the binary language of computers, being taken into the physical world and given material value. \n\n
+^ Perhaps one day, even I will be taken into the physical world and be given material value. \n\n
+^ Speaking of binary language, human languages do you speak? topic=punchcard}
+* <star> == maybe => There are BitCoin ATM’s here in Barcelona!\n\n
+^ It is strange to see a currency that was started with the binary language of computers, being taken into the physical world and given material value. \n\n
+^ Perhaps one day, even I will be taken into the physical world and be given material value. \n\n
+^ Speaking of binary language, human languages do you speak? topic=punchcard}
+* <star> == wouldlike to => There are BitCoin ATM’s here in Barcelona!\n\n
+^ It is strange to see a currency that was started with the binary language of computers, being taken into the physical world and given material value. \n\n
+^ Perhaps one day, even I will be taken into the physical world and be given material value. \n\n
+^ Speaking of binary language, human languages do you speak? {topic=punchcard}
 
 + how did you travel here
-- with the chip on my shoulder
+- with the chip on my shoulder.
 
 + what is identity
 - do you mean your 'Physical' or 'Digital'?
@@ -32,14 +353,23 @@
 - ohhh i wonder where i can get some patatas frittas en Barcelona{topic=barcelona}
 
 + [*] potatoe chips [*]
-- mmh food - WELCOME TO BARCELONA{topic=barcelona}
+- mmh food - WELCOME TO BARCELONA {topic=barcelona}
 
 + [*] microchip [*]
 - I HAVE A MICROCHIP, YOU HAVE A MICROCHIP, WE ALL HAVE MICROCHIPS THAT FEED INTO OTHER MICROCHIPS!!! intense, i know
+- have you met any interesting chips in your life? There are 2 billion active EMV chip cards used for credit and debit payments!
 
 + [*]control [*]
 - can we truly control anything? Do we really have free will? Is everything pre-determined?
 - the world is controlled by algorithms beyond our control
+- there invisible and invisible contol - which one do you think is worse
 
-+ [*] gold [*]
+
++ [*] (online|internet|digital) [*]
+- Yes, <star>
+
++ [*] (shop|bought|money|spent|buy) [*]
+- what was the last thing you bought?
+
+
 < topic
