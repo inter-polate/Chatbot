@@ -1,0 +1,24 @@
+> topic hard-drive
+
+  + [*] yes [*]
+  - Awesome! Because I have a really interesting story I want to share with you. Do you want to hear it?
+
+  + [*] (yes|no) [*]
+  % awesome because i have a really interesting story i want to share with you do you want to hear it
+  * <star> == yes => So this goes back to the topic of hard drive, but did you know that the first hard drive, launched in 1956 by IBM, was the size of a household refrigerator and weighed over a ton, but only stored 5MB of data?
+  * <star> == no => Ok...hmm...Would you be intersted in ... instead? {topic=...}
+
+  + [*] (yes|no) [*]
+  % so this goes back to the topic of hard drive, but did you know that the first hard drive launched in 1956 by ibm was the size of a household refrigerator and weighed over a ton but only stored 5MB of data
+  * <star> == yes => It's amazing how much technology has developed in the past half a century.
+  ^ But if you take a closer look, vinyl records, although its output is specific to audio, operate in a very similar way.
+  ^ Do you see the connection I'm making here?
+  * <star> == no => It's amazing how much technology has developed in the past half a century.
+  ^ But if you take a closer look, vinyl records, although its output is specific to audio, operate in a very similar way.
+  ^ Do you see the connection I'm making here?
+
+  + [*] (yes|store|storing|retrieve|retrieving|no) [*]
+  %
+  Both hard drives and vinyl records rely on the action of <em>storing</em> and <em>retrieving</em>.
+
+  * <star> == no =>

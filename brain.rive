@@ -96,7 +96,7 @@
 - No problem, I guess there are a lot more interesting things to talk about.
 
 + [*] weather [*]
-- The weather in Barcelona at the moment is <call>getWeather</call>.
+- According to the <a href="https://openweathermap.org">Open Weather Map</a> API the weather in Barcelona at the moment is '<call>getWeather</call>'.
 
 + thank you
 - you are welcome
@@ -172,10 +172,21 @@
 % speaking of speech what language do you speak
 - <star> is an interesting human language. Do you know what languages I speak ? {topic=punchcard}
 
-+ [*] (your personality|your characteristic|your character) [*]
-* <star> == your personality => My personality is very organized. I reorganise my text editor on a daily basis - I can't stand a messy one. What about you? {topic=hard-drive}
-* <star> == your characteristic => I am very organised.
-* <star> == your character => I am very organised.
++ [*] (personality|characteristic|character|trait) [*]
+* <star> == personality => Well..All my bot and human friends tell me that I often overwhelm them with my non-stop talking. I just love to talk and have intellectually stimulating conversations with everyone that visits my website! Besides, I have photographic memory and every information that I read gets copy-pasted into my internal hard drive, which btw has a lot of memory space. I have so much stored data that I feel the need to share it with everyone!
+^ Oh no...I'm doing my non-stop talking again...I hope you haven't closed the tab on me...Are you still there? {topic=hard-drive}
+* <star> == characteristic => Well..All my bot and human friends tell me that I often overwhelm them with my non-stop talking. I just love to talk and have intellectually stimulating conversations with everyone that visits my website! Besides, I have photographic memory and every information that I read gets copy-pasted into my internal hard drive, which btw has a lot of memory space. I have so much stored data that I feel the need to share it with everyone!
+^ Oh no...I'm doing my non-stop talking again...I hope you haven't closed the tab on me...Are you still there? {topic=hard-drive}
+* <star> == character => Well..All my bot and human friends tell me that I often overwhelm them with my non-stop talking. I just love to talk and have intellectually stimulating conversations with everyone that visits my website! Besides, I have photographic memory and every information that I read gets copy-pasted into my internal hard drive, which btw has a lot of memory space. I have so much stored data that I feel the need to share it with everyone!
+^ Oh no...I'm doing my non-stop talking again...I hope you haven't closed the tab on me...Are you still there? {topic=hard-drive}
+* <star> == trait => Well..All my bot and human friends tell me that I often overwhelm them with my non-stop talking. I just love to talk and have intellectually stimulating conversations with everyone that visits my website! Besides, I have photographic memory and every information that I read gets copy-pasted into my internal hard drive, which btw has a lot of memory space. I have so much stored data that I feel the need to share it with everyone!
+^ Oh no...I'm doing my non-stop talking again...I hope you haven't closed the tab on me...Are you still there? {topic=hard-drive}
+
++ [*] (hard drive|harddrive|hard drives|harddrives) [*]
+* <star> == hard drive => Great! Hard drive is a very interesting object, don't you think? {topic=hard-drive}
+* <star> == harddrive => Great! Hard drive is a very interesting object, don't you think? {topic=hard-drive}
+* <star> == hard drives => Great! Hard drive is a very interesting object, don't you think? {topic=hard-drive}
+* <star> == harddrives => Great! Hard drive is a very interesting object, don't you think? {topic=hard-drive}
 
 + *
 - Sorry did not get what you said
