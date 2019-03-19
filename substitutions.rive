@@ -75,11 +75,13 @@
 
 ! sub y         = yes
 ! sub yeah      = yes
+! sub yea       = yes
 ! sub yup       = yes
 ! sub yep       = yes
 ! sub ye        = yes
 ! sub yh        = yes
 ! sub uh huh    = yes
+! sub sure      = yes
 
 ! sub n         = no
 ! sub nope      = no

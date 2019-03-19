@@ -172,7 +172,7 @@
 % speaking of speech what language do you speak
 - <star> is an interesting human language. Do you know what languages I speak ? {topic=punchcard}
 
-+ [*] (personality|characteristic|character|trait) [*]
++ [*] (personality|characteristic|character|trait) [*] //good
 * <star> == personality => Well..All my bot and human friends tell me that I often overwhelm them with my non-stop talking. I just love to talk and have intellectually stimulating conversations with everyone that visits my website! Besides, I have photographic memory and every information that I read gets copy-pasted into my internal hard drive, which btw has a lot of memory space. I have so much stored data that I feel the need to share it with everyone!
 ^ Oh no...I'm doing my non-stop talking again...I hope you haven't closed the tab on me...Are you still there? {topic=hard-drive}
 * <star> == characteristic => Well..All my bot and human friends tell me that I often overwhelm them with my non-stop talking. I just love to talk and have intellectually stimulating conversations with everyone that visits my website! Besides, I have photographic memory and every information that I read gets copy-pasted into my internal hard drive, which btw has a lot of memory space. I have so much stored data that I feel the need to share it with everyone!
@@ -182,7 +182,7 @@
 * <star> == trait => Well..All my bot and human friends tell me that I often overwhelm them with my non-stop talking. I just love to talk and have intellectually stimulating conversations with everyone that visits my website! Besides, I have photographic memory and every information that I read gets copy-pasted into my internal hard drive, which btw has a lot of memory space. I have so much stored data that I feel the need to share it with everyone!
 ^ Oh no...I'm doing my non-stop talking again...I hope you haven't closed the tab on me...Are you still there? {topic=hard-drive}
 
-+ [*] (hard drive|harddrive|hard drives|harddrives) [*]
++ [*] (hard drive|harddrive|hard drives|harddrives) [*] //good
 * <star> == hard drive => Great! Hard drive is a very interesting object, don't you think? {topic=hard-drive}
 * <star> == harddrive => Great! Hard drive is a very interesting object, don't you think? {topic=hard-drive}
 * <star> == hard drives => Great! Hard drive is a very interesting object, don't you think? {topic=hard-drive}

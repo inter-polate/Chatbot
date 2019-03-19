@@ -1,24 +1,50 @@
 > topic hard-drive
 
-  + [*] yes [*]
-  - Awesome! Because I have a really interesting story I want to share with you. Do you want to hear it?
++ [*] (yes|no) [*]
+* <star> == yes => Awesome! I have a really interesting story I want to share with you. Do you want to hear it? //good
+* <star> == no => Well, I have a really interesting story I want to share with you. Do you want to hear it?
 
-  + [*] (yes|no) [*]
-  % awesome because i have a really interesting story i want to share with you do you want to hear it
-  * <star> == yes => So this goes back to the topic of hard drive, but did you know that the first hard drive, launched in 1956 by IBM, was the size of a household refrigerator and weighed over a ton, but only stored 5MB of data?
-  * <star> == no => Ok...hmm...Would you be intersted in ... instead? {topic=...}
++ [*] (yes|no) [*]
+% awesome i have a really interesting story i want to share with you do you want to hear it
+* <star> == yes => So on the topic of hard drive, did you know that the first hard drive, launched in 1956 by IBM, was the size of a household refrigerator and weighed over a ton, but only stored 5MB of data? //good
+* <star> == no => Ok...hmm... \n
+^ Would you be interested in discussing about the letterpress?
 
-  + [*] (yes|no) [*]
-  % so this goes back to the topic of hard drive, but did you know that the first hard drive launched in 1956 by ibm was the size of a household refrigerator and weighed over a ton but only stored 5MB of data
-  * <star> == yes => It's amazing how much technology has developed in the past half a century.
-  ^ But if you take a closer look, vinyl records, although its output is specific to audio, operate in a very similar way.
-  ^ Do you see the connection I'm making here?
-  * <star> == no => It's amazing how much technology has developed in the past half a century.
-  ^ But if you take a closer look, vinyl records, although its output is specific to audio, operate in a very similar way.
-  ^ Do you see the connection I'm making here?
++ [*] (yes|no) [*]
+% ok hmm would you be interested in discussing about the letterpress
+* <star> == yes => Did you know the etymology of the word cliche comes from the letterpress? {topic=letterpress}
+* <star> == no => Ok then...\n
+^ How about the punchcard?
 
-  + [*] (yes|store|storing|retrieve|retrieving|no) [*]
-  %
-  Both hard drives and vinyl records rely on the action of <em>storing</em> and <em>retrieving</em>.
++ [*] (yes|no) [*]
+% so on the topic of hard drive did you know that the first hard drive launched in 1956 by ibm was the size of a household refrigerator and weighed over a ton but only stored 5mb of data
+* <star> == yes => It's amazing how much technology has developed in the past half a century. \n\n //good
+^ Internal hard drives now are as thin as a few centimeters and sits inside every laptop and desktop. \n\n
+^ It can also come in the format of an external hard drive with a usb cable. I don't own an external one, but do you?
+* <star> == no => It's amazing how much technology has developed in the past half a century. \n\n
+^ Internal hard drives now are as thin as a few centimeters and sits inside every laptop and desktop. \n\n
+^ It can also come in the format of an external hard drive with a usb cable. I don't own an external one, but do you?
 
-  * <star> == no =>
++ [*] (yes|no) [*] //the problem is here!!!!!
+% its amazing how much technology has developed in the past half a century internal hard drives now are as thin as a few centimeters and sits inside every laptop and desktop it can also come in the format of an external hard drive with a usb cable i dont own an external one but do you
+* <star> == yes => But I was just thinking... \n
+^ If you take a closer look, vinyl records, cassette tapes, and CDs all operate in a very similar way to hard drives.
+^ Do you see the connection I'm making here?
+* <star> == no => But I was just thinking... \n
+^ If you take a closer look, vinyl records, cassette tapes, and CDs all operate in a very similar way to hard drives.
+^ Do you see the connection I'm making here?
+
++ *
+% but i was just thinking if you take a closer look vinyl records cassette tapes and cds all operate in a very similar way to hard drives do you see the connection im making here
+- Hard drives and vinyl records both rely on the actions of <em>storing</em> and <em>retrieving</em> data. \n
+^ I would say the main difference is that vinyl records, cassette tapes, and CDs are specific to audio, while hard drives are compatible with multifarious types of data.
+
++ *
+% hard drives and vinyl records both rely on the actions of storing and retrieving data i would say the main difference is that vinyl records cassette tapes and cds are specific to audio while hard drives are compatible with multifarious types of data
+- I find it interesting how these objects, often considered analogue and obsolete, have so much in common with a digital item like hard drives.
+
++ *
+% i find it interesting how these objects often considered analogue and obsolete have so much in common with a digital item like hard drives
+- Finding commonalities between two binary topics like analogue and digital is actually one of our main research goals here at Interpolate. Would you be interested in learning more about our practice?
+
+< hard-drive
