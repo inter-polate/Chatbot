@@ -18,9 +18,9 @@
 
 + [*] (yes|no) [*]
 % ok hmm would you be interested in discussing about the letterpress
-* <star> == yes => Did you know the etymology of the word cliche comes from the letterpress? {topic=letterpress} //answering "yes" leads to line 4 instead of line 21
+* <star> == yes => Did you know the etymology of the word cliche comes from the letterpress? {topic=letterpress} //answering "yes" leads to line 4 instead of line 21 //also suppose to link to letterpress
 * <star> == no => Ok... then...\n
-^ How about the punchcard? {topic=punchcard} //answering "no" leads to line 5 instead of line 22-23
+^ How about the punchcard? {topic=punchcard} //answering "no" leads to line 5 instead of line 22-23 //also suppose to link to punchcard
 
 + *
 % so on the topic of hard drive did you know that the first hard drive launched in 1956 by ibm was the size of a household refrigerator and weighed over a ton but only stored 5mb of data
@@ -47,6 +47,17 @@
 % i find it interesting how these objects often considered analogue and obsolete have so much in common with a digital item like hard drives
 - Finding commonalities between two binary topics like analogue and digital is actually one of our main research goals here at Interpolate. Would you be interested in learning more about our practice?
 
++ [*] (yes|no) [*]
+% finding commonalities between two binary topics like analogue and digital is actually one of our main research goals here at interpolate would you be interested in learning more about our practice
+* <star> == yes => Sorry...I think too many people are chatting with me at the same time and I have to go get a rest! \n
+^ But if you talk to any of my fellow human Interpolate members, they will be able to guide you through :)
+* <star> == no => Ok! \n
+^ Well if you ever become interested, you can just talk to any of my fellow human Interpolate members - they will be able to guide you through. \n\n
+^ Sorry...I think too many people are chatting with me at the same time and I have to go get a rest! See you soon :)
 
++ *
+- Sorry, I'm a bit confused...
+- Can you elaborate on that?
+- I didn't quite understand that...
 
 < hard-drive
