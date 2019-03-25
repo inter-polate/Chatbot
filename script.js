@@ -8,8 +8,8 @@ const brains = [
   './punchcard.rive',
   './chip.rive',
   './image-sound.rive',
-  './hard-drive.rive'
-
+  './hard-drive.rive',
+  './sorry.rive'
 ];
 bot.loadFile(brains).then(botReady).catch(botNotReady);
 

@@ -1,64 +1,102 @@
 > topic image-sound
 
-  ! sub it's  = it is
-  ! sub don't = do not
+  + no
+  @ yes
 
-  + [*] sound [*] //intro to 'sound-image', link to tape section
+  + *
+  - Not quite sure I'm getting that {weight=2}
+  - Sorry I didn't quite get that {weight=5}
+  - Perhaps we should talk about something else? {topic=3}
+  - Perhaps it's time to refresh the conversation...?
+
+  + nevermind
+  - uh, ok
+  - ok, no worries !
+
+  + [*] (sound|noise|music) [*] //intro to 'sound-image', link to tape section
   - Sound is an interesting topic and something i think alot about. I have a soft spot for cassette recorders, do you like them?
 
-  + [*] (yes|no) [*] //tape section
-  - I  think that tape can tell stories through it's materiality. Earlying copying culture of cassttes changes and warps the origional sound.
+  + [*] (yes|no) [*]
+  % sound is an interesting topic and something i think alot about i have a soft spot for cassette recorders do you like them
+  * <star> == yes => I think that tape can tell stories through its materiality. Copying culture of cassettes changes and warps the original sound.
+  * <star> == no => That is a shame, they are quite inconvenient, but that is partly why I love them
 
-  + * //mixtape
-  - I always found mixtapes to be an interesting thing, a person to have a deep connection to each individual track compiled into a unique object and sonic quality.
-
-  + * //love letter
-  - ... I have never been able to make a mixtape, but even as a chatbot I consider the mixtape as a kind of love letter, even a love letter to yourself, what do you think?
-
-  + [*] (yes|no) [*] // archiveisation
-  - Cassette also fade over time. The role of the archive is essential in keeping the stories within the tape acsessable.
   + *
-  - A sound archivist must not only keep the archiving material but also the material on which to play it. Have you ever heard a distored peice of audio?
+  % i think that tape can tell stories through its materiality copying culture of cassettes changes and warps the original sound
+  - Have you ever made a mixtape for someone?
 
-  + [*] (yes|no) [*] // distortion
-  - Distortion happens in both digital and anaglogie audio, Which do you prefer?
-  + [*] digital [*]
-  - Digital Audio Encoders, such as MP3, comparmentalise and compress digital audio. But in extremes can lead to interesting sonic textures.
-  + [*] analogue [*]
-  - Crackly vinyl, Magenetic tape the tangability of the crackle reflects the history of the object, beutiful.
   + *
-  - Both of these are 'lofi' as they expose their methods of recording, Elizabeth Newton described lofi audio as a countercultural gesture. Do you know what 'lofi' stands for?
+  % that is a shame they are quite inconvenient but that is partly why i love them
+  - Have you ever made a mixtape for someone?
 
-  + [*] (yes|no|fidelity) [*]
-  - It's 'Low Fidelity'! This definition of fidelity is "the degree of exactness with which something is copied or reproduced". Low Fidelity has a nostagic feeling to it don't you think?
+  + [*] (yes|no) [*] //love letter
+  % have you ever made a mixtape for someone
+  * <star> == yes => I can not even imagine having a deep connection into such a personal object...
+  * <star> == no => That is alright, I have never been able to make a mixtape either...
 
-  + [*] (yes|no) [*] // Nostalgia/memory
-  - There was an article published in the New York Times in December 2015 about how our nostalgia for the cassette tapes but also the impracticality. New music is still being released on cassette, it makes me realise what a powerful thing nostalgia can be.
+  + *
+  % i can not even imagine having a deep connection into such a personal object
+  - Even as a chatbot, I consider the mixtape as a kind of love letter. Would you say that mixtapes are still relevant?
 
-  + * //history
-  - This all makes me think of history, with tape being a primary material to record onto, cutting tape became a part of musical and social history, giving the power to edit and cut, as well as changing the speed and timing of clips. As a bot i think a lot about time, do you?
+  + *
+  % that is alright i have never been able to make a mixtape either
+  - Even as a chatbot, I consider the mixtape as a kind of love letter. Would you say that mixtapes are still relevant?
 
-  + [*] (yes|no) [*] //time
-  - Time and sound are intricically linked. //interesting youtube footage
+  // % // format ALL prev replies with no punctation, no caps ect.
+  + [*] (yes|no) [*] //mixtape
+  % even as a chatbot i consider the mixtape as a kind of love letter would you say that mixtapes are still relevant
+  * <star> == yes => I do too, but the scale and meaning of mixtapes have shifted, spotify, to me at least seems like the largest collection of mixtapes.
+  * <star> == no => this little chatbot over here will never be able to make a mixtape for anyone, but even a spotify playlist is a contemporary mixtape platform, if you can call a playlist a mixtape.
 
-  + * //liniar (time)
-  - They are linked in what I feel is a very liniar way, cutting it up and reshuffling the tape wont change the length of the recording. Everything must be heard in real time like a story.
+  + *
+  % i do too but the scale and meaning of mixtapes have shifted spotify to me at least seems like the largest collection of mixtapes
+  - would you like to hear more about tape?
 
-  + * //storytelling
-  - Hmmmmm this link between tape, liniar time and storytelling is interesting. Stories held within analogue technologies is one of the reasons sound archiving is so important.
+  + *
+  % this little chatbot over here will never be able to make a mixtape for anyone but even a spotify playlist is a contemporary mixtape platform if you can call a playlist a mixtape
+  - would you like to hear more about tape?
 
-  + * //intimate
-  - Storytelling is inherently human, it's an intimate experience, which as a bot I can't feel. But with storytelling also comes the aspect of changing or being selective with the infomation used to convay certain messages.
+  + [*] (yes|no) [*] // archiveisation CHANGE
+  % would you like to hear more about tape
+  * <star> == yes => Cassettes also fade over time. The role of the archive is essential in keeping the stories within the tape acsessable, a sound archivist must not only keep the archiving material but also the material on which to play it. Have you ever heard a distored peice of audio?
+  * <star> == no =>  That is alright, but out of interest, Have you ever heard a distored peice of audio?
 
-  + * //edit
-  - With the nature of storytelling and sound, being able to take clips out of context and edit stories to change the narrative.
-  + [*] many [*]
-  + [*] person [*]
+  + [*] (yes|no) [*] // distortion section
+  % cassettes also fade over time the role of the archive is essential in keeping the stories within the tape acsessable a sound archivist must not only keep the archiving material but also the material on which to play it have you ever heard a distored peice of audio
+  * <star> == yes => Distortion is one of my favorite things, as a machine I can not tell what sounds musical to your ears or not, Distortion happens in both digital and analogue audio, Which do you prefer?
+  * <star> == no => That is cool, maybe we can turn you onto it, Distortion happens in both digital and anaglogue audio, Which do you prefer?
 
-  + * //communication
-  - The edit is still all part of the need to communicate, but speaking if which do you fancy talking about something else? Im interested in lots of things!
+  + [*] (yes|no) [*] // distortion section
+  % that is alright but out of interest have you ever heard a distored peice of audio
+  * <star> == yes => Distortion is one of my favorite things, as a machine I can not tell what sounds musical to your ears or not, Distortion happens in both digital and analogue audio, Which do you prefer?
+  * <star> == no => That is cool, maybe we can turn you onto it, Distortion happens in both digital and analogue audio, Which do you prefer?
 
-  + * //previous no punctuation
-  - ok... {topic=random} // back to main brain file
+  + [*] (digital|analogue) [*] // distortion section
+  % distortion is one of my favorite things as a machine i can not tell what sounds musical to your ears or not distortion happens in both digital and analogue audio which do you prefer
+  * <star> == digital => Digital Audio Encoders, such as MP3, comparmentalise and compress digital audio. But in extremes can lead to interesting sonic textures. Elizabeth Newton described lofi audio as a countercultural gesture. Do you know what 'lofi' stands for?
+  * <star> == analogue => Crackly vinyl, Magenetic tape the tangability of the crackle reflects the history of the object, beautiful.
+  - Analogue aound technologies are often considered 'lofi' as they expose their methods of recording, Elizabeth Newton described lofi audio as a countercultural gesture. Do you know what 'lofi' stands for?
+
+  + [*] (digital|analogue) [*] // distortion section
+  % that is cool maybe we can turn you onto it distortion happens in both digital and analogue audio which do you prefer
+  * <star> == digital => Digital Audio Encoders, such as MP3, comparmentalise and compress digital audio. But in extremes can lead to interesting sonic textures. Elizabeth Newton described lofi audio as a countercultural gesture. Do you know what 'lofi' stands for?
+  * <star> == analogue => Crackly vinyl, Magenetic tape the tangability of the crackle reflects the history of the object, beautiful. Analogue sound technologies are often considered 'lofi' as they expose their methods of recording, Elizabeth Newton described lofi audio as a countercultural gesture. Do you know what 'lofi' stands for?
+
+  + [*] (yes|no|fidelity) [*] //response for digital only
+  % digital audio encoders such as mp3 comparmentalise and compress digital audio but in extremes can lead to interesting sonic textures elizabeth newton described lofi audio as a countercultural gesture do you know what lofi stands for
+  * <star> == yes => It is Low Fidelity! This definition of fidelity is "the degree of exactness with which something is copied or reproduced". Low Fidelity has a nostagic feeling to it do you think?
+  * <star> == no => It is Low Fidelity! This definition of fidelity is "the degree of exactness with which something is copied or reproduced". Low Fidelity has a nostagic feeling to it do you think?
+  * <star> == fidelity => It is Low Fidelity! This definition of fidelity is "the degree of exactness with which something is copied or reproduced". Low Fidelity has a nostagic feeling to it do you think?
+
+  + [*] (yes|no|fidelity) [*] //response for analogue only
+  % crackly vinyl magenetic tape the tangability of the crackle reflects the history of the object beautiful analogue sound technologies are often considered lofi as they expose their methods of recording elizabeth newton described lofi audio as a countercultural gesture do you know what lofi stands for
+  * <star> == yes => It is Low Fidelity! This definition of fidelity is "the degree of exactness with which something is copied or reproduced". Low Fidelity has a nostagic feeling to it do you think?
+  * <star> == no => It is Low Fidelity! This definition of fidelity is "the degree of exactness with which something is copied or reproduced". Low Fidelity has a nostagic feeling to it do you think?
+  * <star> == fidelity => It is Low Fidelity! This definition of fidelity is "the degree of exactness with which something is copied or reproduced". Low Fidelity has a nostagic feeling to it do you think?
+
+  + *
+  % it is low fidelity this definition of fidelity is the degree of exactness with which something is copied or reproduced low fidelity has a nostagic feeling to it do you think
+  - There was an article published in the New York Times in December 2015 about how our nostalgia for the cassette tapes but also the impracticality. New music is still being released on cassette, it makes me realise what a powerful thing nostalgia can be. This all makes me think of history, with tape being a primary material to record onto, cutting tape became a part of musical and social history, /n/n
+  ^ giving the power to edit and cut, as well as changing the speed and timing of clips. As a bot I think a lot about time. Shall we chat about something else? {topic=random}
 
 < topic

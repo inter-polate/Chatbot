@@ -1,5 +1,5 @@
 ! version = 2.0
-! global debug = true
+! global debug = false
 
 ! var name = Interbot
 
@@ -16,7 +16,6 @@
 ! sub i'd       = i would
 ! sub i've      = i have
 ! sub i'll      = i will
-! sub don't     = do not
 ! sub isn't     = is not
 ! sub you'd     = you would
 ! sub you're    = you are

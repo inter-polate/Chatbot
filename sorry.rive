@@ -1,11 +1,7 @@
 > topic sorry
 
-  // This will match if the word "sorry" exists ANYWHERE in their message
   + [*] sorry [*]
   - It's OK, I'll forgive you!{topic=random}
-
-  + what even is an apology
-  - Hmm... now you say that... {topic=navel-gazing}
 
   + [*] not sorry [*]
   - You almost got me!{weight=5}

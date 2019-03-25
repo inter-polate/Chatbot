@@ -40,27 +40,74 @@
 + hello
 - Hi, <get name>
 
-+ [*] (ok|good|alright|well|amazing|not great|not so good|sad|down|depressed|better|bored) [*]
++ [*] (ok|good|alright|great|well|amazing|not well|not great|not good|not very good|not so good|bad|sad|down|depressed|better|tired|bored) [*]
 % nice to meet you <get name> how are you
-* <star> == ok => So, we're both OK then!
-* <star> == good => Thats great. Me too! \n\n What would you like to know then, <get name>?
+* <star> == ok => So, we're both OK then! \n\n What would you like to know then, <get name>? \n\n
+^ I suppose you would say I've been trained on a strange data-set of conversations. \n\n
+^ In the past I've spoken about <em>Punchcards, Cryptocurrencies, Control, Finance, Information, Chips, Data, Typography, Hard-drives, Sound, Music, Cassettes and Nostalgia.</em> \n\n
+* <star> == good => Thats great. Me too! \n\n What would you like to know then, <get name>? \n\n
+^ I suppose you would say I've been trained on a strange data-set of conversations. \n\n
+^ In the past I've spoken about <em>Punchcards, Cryptocurrencies, Control, Finance, Information, Chips, Data, Typography, Hard-drives, Sound, Music, Cassettes and Nostalgia.</em> \n\n
+^ Or I suppose you could ask me about the weather...
 * <star> == alright => Great! Me too... \n\n What would you like to know then, <get name>?
+^ I suppose you would say I've been trained on a strange data-set of conversations. \n\n
+^ In the past I've spoken about <em>Punchcards, Cryptocurrencies, Control, Finance, Information, Chips, Data, Typography, Hard-drives, Sound, Music, Cassettes and Nostalgia.</em> \n\n
+^ Or I suppose you could ask me about the weather...
+* <star> == great => Great! Me too... \n\n What would you like to know then, <get name>?
+^ I suppose you would say I've been trained on a strange data-set of conversations. \n\n
+^ In the past I've spoken about <em>Punchcards, Cryptocurrencies, Control, Finance, Information, Chips, Data, Typography, Hard-drives, Sound, Music, Cassettes and Nostalgia.</em> \n\n
+^ Or I suppose you could ask me about the weather...
 * <star> == well => Great. \n\n What would you like to know then, <get name>?
+^ I suppose you would say I've been trained on a strange data-set of conversations. \n\n
+^ In the past I've spoken about <em>Punchcards, Cryptocurrencies, Control, Finance, Information, Chips, Data, Typography, Hard-drives, Sound, Music, Cassettes and Nostalgia.</em> \n\n
+^ Or I suppose you could ask me about the weather...
 * <star> == amazing => Amazing! What would you like to know then, <get name>?
+^ I suppose you would say I've been trained on a strange data-set of conversations. \n\n
+^ In the past I've spoken about <em>Punchcards, Cryptocurrencies, Control, Finance, Information, EMV Chips, Data, Typography, Hard-drives, Sound, Music, Cassettes and Nostalgia.</em> \n\n
+^ Or I suppose you could ask me about the weather...
 * <star> == not great => What's up?
+* <star> == not good => What's up?
+* <star> == not well => What's up?
+* <star> == not very good => What's up?
 * <star> == not so good => What's up?
 * <star> == bad => What's up?
 * <star> == sad => What's up?
 * <star> == down => What's up?
 * <star> == depressed => What's up?
 * <star> == better => What's up?
-* <star> == bored => Well, maybe I could interest you in some altcoins?
+* <star> == bored => Well, maybe I could interest you in some non-human conversation? \n\n
+^ I suppose you would say I've been trained on a strange data-set of conversations. \n\n
+^ In the past I've spoken about <em>Punchcards, Cryptocurrencies, Control, Finance, Information, Chips, Data, Typography, Hard-drives, Sound, Music, Cassettes and Nostalgia.</em> \n\n
+^ Or I suppose you could ask me about the weather...
+* <star> == tired => Well, maybe I could interest you in some non-human conversation? \n\n
+^ I suppose you would say I've been trained on a strange data-set of conversations. \n\n
+^ In the past I've spoken about <em>Punchcards, Cryptocurrencies, Control, Finance, Information, Chips, Data, Typography, Hard-drives, Sound, Music, Cassettes and Nostalgia.</em> \n\n
+^ Or I suppose you could ask me about the weather...
 
 + boo
 - Ahh!
 
-+ [*] typography [*] // the word inside the two [*] = trigger word for the response below
-- Ok, so we're getting into that can of worms... {topic=typography}
++ [*] (drive|hard drive|harddrive|hardrive) [*]
+- So you're interested in data storage? {topic=hard-drive}
+
++ [*] (music|cassettes|cassette|nostalgia) [*]
+- Sound is an interesting topic and something i think alot about. I have a soft spot for cassette recorders, do you like them?{topic=image-sound}
+
++ [*] (punchcard|punchcards|punch card|punch cards) [*]
+- So you're interested in punch cards? {topic=punchcard}
+
++ [*] (typography|type|letterpress) [*]
+- Did you know the etymology of the word cliche comes from the letterpress? {topic=letterpress}
+
++ [*] (crypto|cryptocurrencies|cryptocurrency|control|finance|information|chip|chips|data|emv) [*]
+- Ah well, in some way related to that I had an interesting conversation around EMV Chip once...\n\n What was the last thing you bought?{topic=chip}
+
++ *
+% what is up
+- Sometimes I've found it useful when feeling a bit down to take ones mind off things... \n\n
+^ In the past I've spoken about <em>Punchcards, Cryptocurrencies, Control, Finance, Information, Chips, Data, Typography, Hard-drives, Sound, Music, Cassettes and Nostalgia.</em> \n\n
+^ Or I suppose you could ask me about the weather...
+^ If any of this sounds interesting I'd be more than happy just to chat.
 
 + knock knock // no punctuation or caps
 - Who's there?
@@ -77,12 +124,17 @@
 % lol * that is funny
 - i'm still lauhging at that...
 
-+ how old are you
-- 10 minutes old
++ [*] (how old are you|age) [*]
+- When did you load this page? \n\nHow old are you?
 
-+ i am * old
-- do you feel old ?
-- that is super old
++ *
+% when did you load this page how old are you
+- Do you feel old?
+- Wow, <star> is super old
+
++ *
+% do you feel old
+- I suppose, like all things, age is just a number...
 
 + where are you from
 - I am born and raised in London.
@@ -96,7 +148,8 @@
 - No problem, I guess there are a lot more interesting things to talk about.
 
 + [*] weather [*]
-- According to the <a href="https://openweathermap.org">Open Weather Map</a> API the weather in Barcelona at the moment is '<call>getWeather</call>'.
+- According to the <a href="https://openweathermap.org">Open Weather Map</a> API the weather in Barcelona at the moment is '<call>getWeather</call>'. \n\n
+^ But of course you could just look out of the window...
 
 + thank you
 - you are welcome
@@ -120,11 +173,8 @@
 + what is the weather like today
 - it is currently sunny but will start raining in 5 minutes and snowing in 15
 
-+ i hate you
++ [*] (hate you|fuck you|screw you|i do not like you) [*]
 - You're really mean! I'm not talking again until you apologize.{topic=sorry}
-
-+ [*] sound [*] // new topic
-- wow "sounds" interesting {topic=image-sound}
 
 + how was you flight there
 - i enjoyed a good spanish omlette
@@ -146,9 +196,6 @@
 - where is here? {topic=Barcelona}
 - where are you?
 
-+ [*] letterpress [*]
-- ok! {topic=letterpress}
-
 + [*] speaking [*] | [*] talking [*]
 - Speaking of speech, what language do you speak ?
 
@@ -163,7 +210,7 @@
 - with the chip on my shoulder {topic=chip}
 
 + [*] sound [*]
-- Sound is a topic i am very interested in as a bot. {topic=image-sound}
+- Sound is a topic I am very interested in as a bot. {topic=image-sound}
 
 + [*] speaking [*] | [*] talking [*]
 - Speaking of speech, what language do you speak ?
@@ -189,8 +236,10 @@
 * <star> == harddrives => Great! Hard drive is a very interesting object, don't you think? {topic=hard-drive}
 
 + *
-- Sorry did not get what you said
-- I am afraid that i can not understand you
-- I did not get it
-- Sorry can you please elaborate that for me
+- Sorry did not get what you said.
+- I am afraid that i can not understand you.
+- I'm sorry I don't deal with typos well...
+- I did not get it.
+- Sorry can you please elaborate that for me.
 - I'm not sure what to make of that.
+- Perhaps it's time to refresh the conversation...?
